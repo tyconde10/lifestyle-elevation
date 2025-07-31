@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Legal & Disclosures | Lifestyle Elevation</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="container">
+            <h1 class="site-title">Legal & Disclosures</h1>
+            <p class="tagline">Transparency about how we operate.</p>
+        </div>
+    </header>
+    <nav class="navigation">
+        <div class="container">
+            <ul class="nav-list">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="categories/skincare.html">Skincare</a></li>
+                <li><a href="categories/haircare.html">Haircare</a></li>
+                <li><a href="categories/hygiene.html">Hygiene</a></li>
+                <li><a href="categories/clothing.html">Clothing</a></li>
+                <li><a href="categories/accessories.html">Accessories</a></li>
+                <li><a href="categories/everyday.html">Everyday Essentials</a></li>
+                <li><a href="categories/finance.html">Finance</a></li>
+                <li><a href="blog/index.html">Blog</a></li>
+                <li><a href="legal.html" class="active">Legal</a></li>
+            </ul>
+        </div>
+    </nav>
+    <main>
+        <section class="section section-light">
+            <div class="container article-container">
+                <h2>Affiliate Disclosure</h2>
+                <p>Some of the links on this site are affiliate links. This means we may earn a commission if you click through and purchase a product, at no additional cost to you. We only promote products and services we genuinely believe will add value.</p>
+                <h2>Privacy Policy</h2>
+                <p>We respect your privacy and do not collect personal information from visitors. If you sign up for our newsletter or contact us, any information you provide will be used solely to communicate with you and will never be sold or shared.</p>
+            </div>
+        </section>
+    </main>
+    <footer class="site-footer">
+        <div class="container">
+            <p>&copy; <span id="year"></span> Lifestyle Elevation. All rights reserved.</p>
+        </div>
+    </footer>
+    <script>
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
