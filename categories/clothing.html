@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clothing Essentials | Lifestyle Elevation</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="container">
+            <h1 class="site-title">Clothing Essentials</h1>
+            <p class="tagline">Build your wardrobe with quality basics that last and never go out of style.</p>
+        </div>
+    </header>
+    <nav class="navigation">
+        <div class="container">
+            <ul class="nav-list">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="skincare.html">Skincare</a></li>
+                <li><a href="haircare.html">Haircare</a></li>
+                <li><a href="hygiene.html">Hygiene</a></li>
+                <li><a href="clothing.html" class="active">Clothing</a></li>
+                <li><a href="accessories.html">Accessories</a></li>
+                <li><a href="everyday.html">Everyday Essentials</a></li>
+                <li><a href="finance.html">Finance</a></li>
+                <li><a href="../blog/index.html">Blog</a></li>
+            </ul>
+        </div>
+    </nav>
+    <main>
+        <section class="section section-light">
+            <div class="container">
+                <h2>Essential Clothing Picks</h2>
+                <div class="product-grid">
+                    <div class="product-card">
+                        <div class="image-placeholder">Image</div>
+                        <div class="product-content">
+                            <h4>Classic White Tee</h4>
+                            <p>A premium cotton T-shirt that maintains its shape and softness wash after wash.</p>
+                            <div class="price">$20</div>
+                            <a class="btn-affiliate" href="#">Buy Now</a>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="image-placeholder">Image</div>
+                        <div class="product-content">
+                            <h4>Slim Fit Jeans</h4>
+                            <p>Comfortable and durable jeans that pair well with everything in your closet.</p>
+                            <div class="price">$45</div>
+                            <a class="btn-affiliate" href="#">Buy Now</a>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="image-placeholder">Image</div>
+                        <div class="product-content">
+                            <h4>Classic Hoodie</h4>
+                            <p>A soft fleece hoodie perfect for layering or lounging.</p>
+                            <div class="price">$35</div>
+                            <a class="btn-affiliate" href="#">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="site-footer">
+        <div class="container">
+            <p>&copy; <span id="year"></span> Lifestyle Elevation. All rights reserved.</p>
+        </div>
+    </footer>
+    <script>
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
