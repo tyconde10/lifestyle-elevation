@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Haircare | Lifestyle Elevation</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="container">
+            <h1 class="site-title">Haircare</h1>
+            <p class="tagline">Healthy hair made simple – products and routines that actually work.</p>
+        </div>
+    </header>
+    <nav class="navigation">
+        <div class="container">
+            <ul class="nav-list">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="skincare.html">Skincare</a></li>
+                <li><a href="haircare.html" class="active">Haircare</a></li>
+                <li><a href="hygiene.html">Hygiene</a></li>
+                <li><a href="clothing.html">Clothing</a></li>
+                <li><a href="accessories.html">Accessories</a></li>
+                <li><a href="everyday.html">Everyday Essentials</a></li>
+                <li><a href="finance.html">Finance</a></li>
+                <li><a href="../blog/index.html">Blog</a></li>
+            </ul>
+        </div>
+    </nav>
+    <main>
+        <section class="section section-light">
+            <div class="container">
+                <h2>Featured Haircare Products</h2>
+                <div class="product-grid">
+                    <div class="product-card">
+                        <div class="image-placeholder">Image</div>
+                        <div class="product-content">
+                            <h4>Nourishing Shampoo</h4>
+                            <p>A gentle shampoo infused with natural oils to leave your hair soft and healthy.</p>
+                            <div class="price">$16</div>
+                            <a class="btn-affiliate" href="#">Buy Now</a>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="image-placeholder">Image</div>
+                        <div class="product-content">
+                            <h4>Moisturizing Conditioner</h4>
+                            <p>Restore moisture and shine with this nourishing conditioner.</p>
+                            <div class="price">$18</div>
+                            <a class="btn-affiliate" href="#">Buy Now</a>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="image-placeholder">Image</div>
+                        <div class="product-content">
+                            <h4>Leave-In Serum</h4>
+                            <p>Protect against frizz and heat damage while adding softness and shine.</p>
+                            <div class="price">$24</div>
+                            <a class="btn-affiliate" href="#">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="site-footer">
+        <div class="container">
+            <p>&copy; <span id="year"></span> Lifestyle Elevation. All rights reserved.</p>
+        </div>
+    </footer>
+    <script>
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
