@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aesthetic Accessories | Lifestyle Elevation</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="container">
+            <h1 class="site-title">Aesthetic Accessories</h1>
+            <p class="tagline">Elevate your look with tasteful accessories that stand the test of time.</p>
+        </div>
+    </header>
+    <nav class="navigation">
+        <div class="container">
+            <ul class="nav-list">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="skincare.html">Skincare</a></li>
+                <li><a href="haircare.html">Haircare</a></li>
+                <li><a href="hygiene.html">Hygiene</a></li>
+                <li><a href="clothing.html">Clothing</a></li>
+                <li><a href="accessories.html" class="active">Accessories</a></li>
+                <li><a href="everyday.html">Everyday Essentials</a></li>
+                <li><a href="finance.html">Finance</a></li>
+                <li><a href="../blog/index.html">Blog</a></li>
+            </ul>
+        </div>
+    </nav>
+    <main>
+        <section class="section section-light">
+            <div class="container">
+                <h2>Top Accessory Picks</h2>
+                <div class="product-grid">
+                    <div class="product-card">
+                        <div class="image-placeholder">Image</div>
+                        <div class="product-content">
+                            <h4>Minimalist Watch</h4>
+                            <p>A sleek and simple watch that complements any outfit.</p>
+                            <div class="price">$85</div>
+                            <a class="btn-affiliate" href="#">Buy Now</a>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="image-placeholder">Image</div>
+                        <div class="product-content">
+                            <h4>Leather Wallet</h4>
+                            <p>A durable, stylish wallet made from premium leather.</p>
+                            <div class="price">$45</div>
+                            <a class="btn-affiliate" href="#">Buy Now</a>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="image-placeholder">Image</div>
+                        <div class="product-content">
+                            <h4>Classic Sunglasses</h4>
+                            <p>Timeless shades offering full UV protection and a modern look.</p>
+                            <div class="price">$60</div>
+                            <a class="btn-affiliate" href="#">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="site-footer">
+        <div class="container">
+            <p>&copy; <span id="year"></span> Lifestyle Elevation. All rights reserved.</p>
+        </div>
+    </footer>
+    <script>
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
