@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lifestyle Elevation</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="container">
+            <h1 class="site-title">Elevate Your Lifestyle</h1>
+            <p class="tagline">Clear advice and premium picks across every facet of your life.</p>
+        </div>
+    </header>
+
+    <nav class="navigation">
+        <div class="container">
+            <ul class="nav-list">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="categories/skincare.html">Skincare</a></li>
+                <li><a href="categories/haircare.html">Haircare</a></li>
+                <li><a href="categories/hygiene.html">Hygiene</a></li>
+                <li><a href="categories/clothing.html">Clothing</a></li>
+                <li><a href="categories/accessories.html">Accessories</a></li>
+                <li><a href="categories/everyday.html">Everyday Essentials</a></li>
+                <li><a href="categories/finance.html">Finance</a></li>
+                <li><a href="blog/index.html">Blog</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="container hero-content">
+                <h2>Smart Choices for a Better You</h2>
+                <p>Explore curated products, practical guidance, and no-nonsense advice to elevate every aspect of your life. From skincare and style to finance and everyday essentials, we've got you covered.</p>
+                <a class="btn-primary" href="#categories">Start Exploring</a>
+            </div>
+        </section>
+
+        <!-- Categories Section -->
+        <section id="categories" class="section section-light">
+            <div class="container">
+                <h2>Categories</h2>
+                <div class="card-grid">
+                    <!-- Category cards -->
+                    <a href="categories/skincare.html" class="card">
+                        <h3>Skincare</h3>
+                        <p>Nourish your skin with top-tier products and tips.</p>
+                    </a>
+                    <a href="categories/haircare.html" class="card">
+                        <h3>Haircare</h3>
+                        <p>Healthy hair starts here – products and routines that work.</p>
+                    </a>
+                    <a href="categories/hygiene.html" class="card">
+                        <h3>Personal Hygiene</h3>
+                        <p>Essential products to keep you feeling fresh and confident.</p>
+                    </a>
+                    <a href="categories/clothing.html" class="card">
+                        <h3>Clothing Essentials</h3>
+                        <p>Build your wardrobe with quality basics that last.</p>
+                    </a>
+                    <a href="categories/accessories.html" class="card">
+                        <h3>Aesthetic Accessories</h3>
+                        <p>Elevate your look with tasteful accessories.</p>
+                    </a>
+                    <a href="categories/everyday.html" class="card">
+                        <h3>Everyday Essentials</h3>
+                        <p>High-quality staples for daily use, from toothpaste to shampoo.</p>
+                    </a>
+                    <a href="categories/finance.html" class="card">
+                        <h3>Finance Tools & Tips</h3>
+                        <p>Practical advice and tools to manage your money wisely.</p>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Blog Preview Section -->
+        <section id="blog-preview" class="section">
+            <div class="container">
+                <h2>Latest Guides & Insights</h2>
+                <div class="card-grid">
+                    <a href="blog/budgeting-basics.html" class="card">
+                        <h3>Budgeting Basics</h3>
+                        <p>How to start budgeting in your 20s and build wealth early.</p>
+                    </a>
+                    <a href="blog/skincare-routine.html" class="card">
+                        <h3>Skin Routine 101</h3>
+                        <p>Simple steps for glowing skin without the hype.</p>
+                    </a>
+                    <a href="blog/best-white-tees.html" class="card">
+                        <h3>The Best White Tees</h3>
+                        <p>Our picks for durable and stylish white T-shirts.</p>
+                    </a>
+                </div>
+                <div class="text-center">
+                    <a class="btn-secondary" href="blog/index.html">View All Articles</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <p>&copy; <span id="year"></span> Lifestyle Elevation. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Set current year
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
