@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Everyday Essentials | Lifestyle Elevation</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="container">
+            <h1 class="site-title">Everyday Essentials</h1>
+            <p class="tagline">High-quality staples for daily use, because the little things matter.</p>
+        </div>
+    </header>
+    <nav class="navigation">
+        <div class="container">
+            <ul class="nav-list">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="skincare.html">Skincare</a></li>
+                <li><a href="haircare.html">Haircare</a></li>
+                <li><a href="hygiene.html">Hygiene</a></li>
+                <li><a href="clothing.html">Clothing</a></li>
+                <li><a href="accessories.html">Accessories</a></li>
+                <li><a href="everyday.html" class="active">Everyday Essentials</a></li>
+                <li><a href="finance.html">Finance</a></li>
+                <li><a href="../blog/index.html">Blog</a></li>
+            </ul>
+        </div>
+    </nav>
+    <main>
+        <section class="section section-light">
+            <div class="container">
+                <h2>Essential Daily Products</h2>
+                <div class="product-grid">
+                    <div class="product-card">
+                        <div class="image-placeholder">Image</div>
+                        <div class="product-content">
+                            <h4>Reusable Water Bottle</h4>
+                            <p>Stay hydrated on the go with this insulated, eco-friendly bottle.</p>
+                            <div class="price">$25</div>
+                            <a class="btn-affiliate" href="#">Buy Now</a>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="image-placeholder">Image</div>
+                        <div class="product-content">
+                            <h4>Bamboo Toothbrush</h4>
+                            <p>An eco-conscious alternative to plastic with soft bristles for gentle cleaning.</p>
+                            <div class="price">$8</div>
+                            <a class="btn-affiliate" href="#">Buy Now</a>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="image-placeholder">Image</div>
+                        <div class="product-content">
+                            <h4>Eco-Friendly Detergent</h4>
+                            <p>Powerful cleaning for your clothes without the harsh chemicals.</p>
+                            <div class="price">$15</div>
+                            <a class="btn-affiliate" href="#">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="site-footer">
+        <div class="container">
+            <p>&copy; <span id="year"></span> Lifestyle Elevation. All rights reserved.</p>
+        </div>
+    </footer>
+    <script>
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
