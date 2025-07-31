@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog | Lifestyle Elevation</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="container">
+            <h1 class="site-title">Blog & Guides</h1>
+            <p class="tagline">Clear advice and step-by-step guides to help you live smarter.</p>
+        </div>
+    </header>
+    <nav class="navigation">
+        <div class="container">
+            <ul class="nav-list">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../categories/skincare.html">Skincare</a></li>
+                <li><a href="../categories/haircare.html">Haircare</a></li>
+                <li><a href="../categories/hygiene.html">Hygiene</a></li>
+                <li><a href="../categories/clothing.html">Clothing</a></li>
+                <li><a href="../categories/accessories.html">Accessories</a></li>
+                <li><a href="../categories/everyday.html">Everyday Essentials</a></li>
+                <li><a href="../categories/finance.html">Finance</a></li>
+                <li><a href="index.html" class="active">Blog</a></li>
+            </ul>
+        </div>
+    </nav>
+    <main>
+        <section class="section section-light">
+            <div class="container">
+                <h2>Latest Articles</h2>
+                <div class="blog-grid">
+                    <a href="budgeting-basics.html" class="blog-card">
+                        <h3>Budgeting Basics</h3>
+                        <div class="post-meta">Published July 15, 2025 • Finance</div>
+                        <p>Learn how to set up a realistic budget you can stick to without sacrificing your lifestyle.</p>
+                    </a>
+                    <a href="skincare-routine.html" class="blog-card">
+                        <h3>Skin Routine 101</h3>
+                        <div class="post-meta">Published June 20, 2025 • Skincare</div>
+                        <p>A step-by-step routine that strips back the hype to deliver real results.</p>
+                    </a>
+                    <a href="best-white-tees.html" class="blog-card">
+                        <h3>The Best White Tees</h3>
+                        <div class="post-meta">Published May 30, 2025 • Clothing</div>
+                        <p>Our no-nonsense guide to the most durable and stylish white T-shirts on the market.</p>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="site-footer">
+        <div class="container">
+            <p>&copy; <span id="year"></span> Lifestyle Elevation. All rights reserved.</p>
+        </div>
+    </footer>
+    <script>
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
